@@ -38,8 +38,10 @@ body{
     width: 100vw;
     align-content: stretch;
     margin: 0 auto;
-    padding-left: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     flex-wrap: wrap;
+    
 }
 .header-item{
     list-style: none;
