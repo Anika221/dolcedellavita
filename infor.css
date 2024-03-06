@@ -27,21 +27,20 @@ body{
 }
 .header-nav{
     display: flex;
-    width: 1300px;
+    width: 100vw;
     justify-content: space-between;
 }
 .header-list{
     display: flex;
-    font-size: 30px;
+    font-size: 2vw;
     color: var(--black-color);
     justify-content: space-between;
     width: 100vw;
     align-content: stretch;
     margin: 0 auto;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 15vw;
+    padding-right: 15vw;
     flex-wrap: wrap;
-    
 }
 .header-item{
     list-style: none;
@@ -62,15 +61,12 @@ body{
 .main-text{
     font-family: "Josefin Slab", serif;
     font-size: 35px;
-    margin-left: 35px;
-    margin-right: 20px;
 }
 .main-information{
     font-family: "Kalam", cursive;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    margin-left: 30px;
 }
 .main{
     background-size: cover;
@@ -78,6 +74,9 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
+    margin-bottom: 20vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 .info:hover{
     font-size: 30px;
