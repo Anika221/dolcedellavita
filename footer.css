@@ -1,0 +1,103 @@
+:root{
+    --black-color:black;
+    --gray-color:#4A3F3F;
+    --brown-color:#4A4040;
+    --gray2-color:#8B8484;
+    --white-color:#F6F2F2;
+    --text-color:#776E6E;
+    --background-color: rgb(248, 201, 209);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    background-image: url(./img/bgi.jpeg);
+}
+.header{
+    font-family: "Island Moments", cursive;
+    box-shadow: 1px 1px 4px 1px var(--gray-color);
+}
+.header-div{
+    font-size: 30px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header-nav{
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    font-size: 30px;
+    color: var(--black-color);
+    justify-content: space-between;
+    width: 100vw;
+    align-content: stretch;
+    margin: 0 auto;
+    padding-left: 200px;
+    flex-wrap: wrap;
+}
+.header-item{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-link{
+    text-decoration: none;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--brown-color);
+    font-family: "Irish Grover", system-ui;
+    font-size: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.from-input{
+    width: 450px;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Irish Grover", system-ui;
+    font-size: 20px;
+    padding-left: 20px;
+    color: var(--black-color);
+}
+.input{
+    margin-right: 15px;
+}
+.from-textarea{
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: "Irish Grover", system-ui;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: var(--white-color);
+    color: var(--gray2-color);
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: "Irish Grover", system-ui;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+}

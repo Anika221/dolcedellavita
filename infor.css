@@ -1,0 +1,83 @@
+:root{
+    --black-color:black;
+    --gray-color:#4A3F3F;
+    --brown-color:#4A4040;
+    --gray2-color:#8B8484;
+    --white-color:#F6F2F2;
+    --text-color:#776E6E;
+    --background-color: rgb(248, 201, 209);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    background-image: url(./img/bgi.jpeg);
+}
+.header{
+    font-family: "Island Moments", cursive;
+    box-shadow: 1px 1px 4px 1px var(--gray-color);
+}
+.header-div{
+    font-size: 30px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header-nav{
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    font-size: 30px;
+    color: var(--black-color);
+    justify-content: space-between;
+    width: 100vw;
+    align-content: stretch;
+    margin: 0 auto;
+    padding-left: 200px;
+    flex-wrap: wrap;
+}
+.header-item{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-link{
+    text-decoration: none;
+}
+.main-title{
+    font-family: "Irish Grover", system-ui;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 0 auto;
+}
+.main-text{
+    font-family: "Josefin Slab", serif;
+    font-size: 35px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.main-information{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.main{
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.info:hover{
+    font-size: 30px;
+    transition: 0.3s;
+}
